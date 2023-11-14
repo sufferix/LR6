@@ -72,5 +72,33 @@ _Цель лабораторной работы_: изучение базовы�
 
 Добавление папки со скриншотами в новую ветку
 <p align="center">
-  <img src="https://github.com/sufferix/LR6/blob/report/screens/720.png">
+  <img src="https://github.com/sufferix/LR6/blob/report/screens/721.png">
 </p>
+
+8. Форматированная история операций
+<p align="center">
+  <img src="https://github.com/sufferix/LR6/blob/report/screens/722.png">
+</p>
+
+## Лог команд
+```
+git clone
+git config user.name
+git config user.email
+git add
+git commit -m
+git push
+git show *хэш коммита*
+git branch
+git checkout
+git log
+git merge
+git branch -d
+git rm
+git revert HEAD
+git push --set-upstream origin 
+git log --pretty=format:"%h - %an, %ar : %s"
+```
+
+## Вывод
+В данной лабораторной работе были изучены базовые возможности системы управления версиями, был получен опыт работы с Git Api и опыт работы с локальным и удаленным репозиторием.
